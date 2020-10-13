@@ -5,6 +5,7 @@
 #' @examples
 #' is_leap_year(1996)
 #' is_leap_year(c(1996, 1997))
+#' @import stats
 #' @export
 
 is_leap_year <- function(year){
