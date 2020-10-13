@@ -2,7 +2,9 @@
 #' @param year numeric vector
 #'
 #' @return logical vector
-#' @example is_leap_year(c(1996, 1997))
+#' @examples
+#' is_leap_year(1996)
+#' is_leap_year(c(1996, 1997))
 #' @export
 
 is_leap_year <- function(year){
